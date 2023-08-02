@@ -1,13 +1,14 @@
 {
     "name": "monaca-template-onsenui-v2-js-tabbar",
-    "version": "3.0.0",
+    "version": "4.0.0",
+    "engines": {
+      "node": ">=18.16"
+    },
     "dependencies": {
-        "cordova-plugin-splashscreen": "6.0.0",
         "monaca-plugin-monaca-core": "3.3.1"
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-splashscreen": {},
             "monaca-plugin-monaca-core": {}
         }
     },
@@ -17,6 +18,6 @@
     },
     "devDependencies": {
         "browser-sync": "~2.27.7",
-        "cordova": "^11.0.0"
+        "cordova": "^12.0.0"
     }
 }
